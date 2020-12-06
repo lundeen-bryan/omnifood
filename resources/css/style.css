@@ -1,3 +1,6 @@
+/*=============================================
+=            Section clear-css                =
+=============================================*/
 * {
   margin: 0;
   padding: 0;
@@ -9,15 +12,23 @@ html {
   color: #555555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
-  font-size: 1.25rem;
+  font-size: 1.25rem; /* 20px */
   text-rendering: optimizeLegibility;
 }
+/*=====  End of Section clear-css      ======*/
 
+/*=============================================
+=            Section reusable code            =
+=============================================*/
 .row {
-  max-width: 105.5556vh;
+  max-width: 59.375vw; /* 1140px */
   margin: 0 auto;
 }
+/*=====  End of Section reusable code  ======*/
 
+/*=============================================
+=            Section header                   =
+=============================================*/
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('./img/hero.jpg');
@@ -28,10 +39,46 @@ header {
 
 .hero-text-box {
   position: absolute;
-  width: 105.5556vh;
+  width: 59.375vw; /* 1140px */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.logo {
+  height: 103px; /* 100px */
+  width: auto;
+  float: left;
+  margin-top: 1.25rem; /* 20px */
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 3.75rem; /* 60px */
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 2.5rem; /* 40px */
+}
+
+/* orange color #e67e22 */
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e67e22;
 }
 
 h1 {
@@ -41,10 +88,15 @@ h1 {
   font-size: 200%;
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 4px;
+  letter-spacing: 0.0625rem; /* 1px */
+  word-spacing: 0.25rem; /* 4px */
 }
 
+/*=====  End of Section header         ======*/
+
+/*=============================================
+=            Section buttons                  =
+=============================================*/
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -83,3 +135,4 @@ h1 {
   border: 1px solid #cf6d17;
   color: #fff;
 }
+/*=====  End of Section buttons        ======*/
