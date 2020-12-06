@@ -1,5 +1,5 @@
 /*=============================================
-=            Section clear-css                =
+=            Section page setup               =
 =============================================*/
 * {
   margin: 0;
@@ -15,20 +15,7 @@ html {
   font-size: 1.25rem; /* 20px */
   text-rendering: optimizeLegibility;
 }
-/*=====  End of Section clear-css      ======*/
 
-/*=============================================
-=            Section reusable code            =
-=============================================*/
-.row {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-/*=====  End of Section reusable code  ======*/
-
-/*=============================================
-=            Section header                   =
-=============================================*/
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('./img/hero.jpg');
@@ -36,37 +23,36 @@ header {
   background-position: center;
   height: 100vh;
 }
+/*=====  End of Section page setup     ======*/
 
-.hero-text-box {
-  position: absolute;
-  width: 59.375vw; /* 1140px */
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/*=============================================
+=            Section navbar                   =
+=============================================*/
+.navbar {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-.logo {
+.navbar__logo {
   height: 103px; /* 100px */
   width: auto;
   float: left;
   margin-top: 1.25rem; /* 20px */
 }
 
-.main-nav {
+.navbar__items {
   float: right;
   list-style: none;
   margin-top: 3.75rem; /* 60px */
 }
 
-.main-nav li {
+.navbar__item {
   display: inline-block;
   margin-left: 2.5rem; /* 40px */
 }
 
-/* orange color #e67e22 */
-
-.main-nav li a:link,
-.main-nav li a:visited {
+.navbar__link:link,
+.navbar__link:visited {
   padding: 8px 0;
   color: #fff;
   text-decoration: none;
@@ -76,12 +62,25 @@ header {
   transition: border-bottom 0.2s;
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
+.navbar__link:hover,
+.navbar__link:active {
   border-bottom: 2px solid #e67e22;
 }
 
-h1 {
+/*=====  End of Section navbar         ======*/
+
+/*=============================================
+=            Section hero                     =
+=============================================*/
+.hero {
+  position: absolute;
+  width: 59.375vw; /* 1140px */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero__title {
   margin-top: 0;
   margin-bottom: 20;
   color: #ffffff;
@@ -91,14 +90,13 @@ h1 {
   letter-spacing: 0.0625rem; /* 1px */
   word-spacing: 0.25rem; /* 4px */
 }
-
-/*=====  End of Section header         ======*/
+/*=====  End of Section hero           ======*/
 
 /*=============================================
-=            Section buttons                  =
+=            Section hero buttons             =
 =============================================*/
-.btn:link,
-.btn:visited {
+.hero__btn:link,
+.hero__btn:visited {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -107,32 +105,42 @@ h1 {
   transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-.btn-full:link,
-.btn-full:visited {
+.hero__btn:hover,
+.hero__btn:active {
+  background-color: #cf6d17;
+}
+
+.hero__btn-full:link,
+.hero__btn-full:visited {
   background-color: #e67e22;
   border: 1px solid #e67e22;
   color: #ffffff;
   margin-right: 0.625rem;
 }
 
-.btn-ghost:link,
-.btn-ghost:visited {
+.hero__btn-full:hover,
+.hero__btn-full:active {
+  background-color: #cf6d17f6;
+  border: 1px solid #cf6d17bb;
+}
+
+.hero__btn-ghost:link,
+.hero__btn-ghost:visited {
   border: 1px solid #e67e22;
   color: #e67e22;
 }
-.btn:hover,
-.btn:active {
-  background-color: #cf6d17;
-}
 
-.btn-full:hover,
-.btn-full:active {
-  border: 1px solid #cf6d17;
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
-  border: 1px solid #cf6d17;
+.hero__btn-ghost:hover,
+.hero__btn-ghost:active {
+  border: 1px solid #cf6d17f6;
   color: #fff;
 }
-/*=====  End of Section buttons        ======*/
+/*=====  End of Section hero butons    ======*/
+
+/*=============================================
+=            Section features                 =
+=============================================*/
+.features__row {
+  max-width: 1140px;
+  margin: 0 auto;
+}

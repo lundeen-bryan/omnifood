@@ -10,73 +10,79 @@
     />
     <link rel="stylesheet" type="text/css" href="/vendors/css/grid.css" />
     <link rel="stylesheet" type="text/css" href="/vendors/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/style2.css" />
     <title>Omnifood</title>
   </head>
   <body>
     <header>
-      <nav>
-        <div class="row">
-          <img
-            src="./resources/img/logo-white.png"
-            alt="Omnifood logo"
-            class="logo"
-          />
-          <ul class="main-nav">
-            <li><a href="#">Food delivery</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Our cities</a></li>
-            <li><a href="#">Sign up</a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="hero-text-box">
-        <h1>
+      <div class="navbar">
+        <img
+          class="navbar__logo"
+          src="./resources/img/logo-white.png"
+          alt="Omnifood logo"
+        />
+        <ul class="navbar__items">
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Food delivery</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">How it works</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Our cities</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Sign up</a>
+          </li>
+        </ul>
+      </div>
+      <div class="hero">
+        <h1 class="hero__title">
           Goodbye junk food. <br />
           Hello super healthy meals.
         </h1>
-        <a class="btn btn-full" href="#">I’m hungry</a>
-        <a class="btn btn-ghost" href="#">Show me more</a>
+          <a class="hero__btn hero__btn-full" href="#">I’m hungry</a>
+          <a class="hero__btn hero__btn-ghost" href="#">Show me more</a>
       </div>
     </header>
-    <section class="section-features">
-      <div class="row">
-        <h2>Get food fast &mdash; not fast food.</h2>
-        <p class="long-copy">
+    <section class="features">
+      <div class="features__row">
+        <h2 class="features__title">Get food fast &mdash; not fast food.</h2>
+        <p class="features__para">
           Hello, we’re Omnifood, your new premium food delivery service. We know
           you’re always busy. No time for cooking. So let us take care of that,
           we’re really good at it, we promise!
         </p>
       </div>
 
-      <div class="row">
-        <div class="col span-1-of-4">
-          <h3>Up to 365 days/year</h3>
-          <p>
+      <div class="features__cards">
+        <div class="features__card">
+          <h3 class="card__title">Up to 365 days/year</h3>
+          <p class="card__para">
             Never cook again! We really mean that. Our subscription plans
             include up to 365 days/year coverage. You can also choose to order
             more flexibly if that's your style.
           </p>
         </div>
-        <div class="col span-1-of-4">
-          <h3>Ready in 20 minutes</h3>
-          <p>
+        <div class="features__card">
+          <h3 card__title>Ready in 20 minutes</h3card__title>
+          <p card__para>
             Never cook again! We really mean that. Our subscription plans
             include up to 365 days/year coverage. You can also choose to order
             more flexibly if that's your style.
-          </p>
+          </pcard__para>
         </div>
-        <div class="col span-1-of-4">
-          <h3>100% organic</h3>
-          <p>
+        <div class="features__card">
+          <h3 card__title>100% organic</h3>
+          <p card__para>
             All our vegetables are fresh, organic and local. Animals are raised
             without added hormones or antibiotics. Good for your health, the
             environment, and it also tastes better!
           </p>
         </div>
-        <div class="col span-1-of-4">
-          <h3>Order anything</h3>
-          <p>
+        <div class="features__card">
+          <h3 card__title>Order anything</h3>
+          <p card__para>
             We don't limit your creativity, which means you can order whatever
             you feel like. You can also choose from our menu containing over 100
             delicious meals. It's up to you!
