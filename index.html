@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" type="text/css" href="/vendors/css/grid.css" />
     <link rel="stylesheet" type="text/css" href="/vendors/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/resources/css/style2.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
     <title>Omnifood</title>
   </head>
   <body>
@@ -41,11 +41,11 @@
           Goodbye junk food. <br />
           Hello super healthy meals.
         </h1>
-          <a class="hero__btn hero__btn-full" href="#">I’m hungry</a>
-          <a class="hero__btn hero__btn-ghost" href="#">Show me more</a>
+        <a class="hero__btn hero__btn-full" href="#">I’m hungry</a>
+        <a class="hero__btn hero__btn-ghost" href="#">Show me more</a>
       </div>
     </header>
-    <section class="features">
+    <section class="features__section">
       <div class="features__row">
         <h2 class="features__title">Get food fast &mdash; not fast food.</h2>
         <p class="features__para">
@@ -57,7 +57,9 @@
 
       <div class="features__cards">
         <div class="features__card">
+          <!-- in tutorial this was called col -->
           <h3 class="card__title">Up to 365 days/year</h3>
+          <!-- in tutorial this was called col span-1-of-4 -->
           <p class="card__para">
             Never cook again! We really mean that. Our subscription plans
             include up to 365 days/year coverage. You can also choose to order
@@ -65,24 +67,20 @@
           </p>
         </div>
         <div class="features__card">
-          <h3 card__title>Ready in 20 minutes</h3card__title>
-          <p card__para>
+          <h3 class="card__title">Ready in 20 minutes</h3>
+          <p class="card__para">
             Never cook again! We really mean that. Our subscription plans
             include up to 365 days/year coverage. You can also choose to order
             more flexibly if that's your style.
-          </pcard__para>
-        </div>
-        <div class="features__card">
-          <h3 card__title>100% organic</h3>
-          <p card__para>
+          </p>
+          <h3 class="card__title">100% Organic</h3>
+          <p class="card__para">
             All our vegetables are fresh, organic and local. Animals are raised
             without added hormones or antibiotics. Good for your health, the
             environment, and it also tastes better!
           </p>
-        </div>
-        <div class="features__card">
-          <h3 card__title>Order anything</h3>
-          <p card__para>
+          <h3 class="card__title">Order anything</h3>
+          <p class="card__para">
             We don't limit your creativity, which means you can order whatever
             you feel like. You can also choose from our menu containing over 100
             delicious meals. It's up to you!
