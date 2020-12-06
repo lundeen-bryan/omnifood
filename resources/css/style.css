@@ -21,7 +21,7 @@ html {
 =            Section reusable code            =
 =============================================*/
 .row {
-  max-width: 59.375vw; /* 1140px */
+  max-width: 1140px;
   margin: 0 auto;
 }
 /*=====  End of Section reusable code  ======*/
