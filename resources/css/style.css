@@ -21,7 +21,7 @@ html {
 =            Section reusable code            =
 =============================================*/
 .row {
-  max-width: 1140px;
+  max-width: 83.3333vw; /* originally set at 1140px then changed to 1200px and converted to vw */
   margin: 0 auto;
 }
 section {
@@ -33,7 +33,7 @@ section {
 }
 
 .box p {
-  font-size: 90%;
+  font-size: 100%;
   line-height: 145%;
 }
 /*=====  End of Section reusable code  ======*/
@@ -136,10 +136,14 @@ h3 {
 /*=============================================
 =            Section paragraphs               =
 =============================================*/
+.section-features .long-copy {
+  margin-bottom: 1.5625vw; /* was 30px */
+}
 .long-copy {
   line-height: 145%;
-  width: 70%;
-  margin-left: 15%;
+  width: 44.2708vw; /* was 70%, then I changed it to 850px, then 44.2708vw */
+  /* margin-left: was 15% but I liked it centered instead */
+  margin: 0 auto;
 }
 /*=====  End of Section paragraphs     ======*/
 
@@ -197,3 +201,42 @@ ion-icon {
   color: #fff;
 }
 /*=====  End of Section buttons        ======*/
+
+/*=============================================
+=            Section meals                    =
+=============================================*/
+.section-meals {
+  padding: 0;
+}
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.meal-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: tranform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+/*=====  End of Section meals          ======*/
