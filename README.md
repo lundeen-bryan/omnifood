@@ -20,7 +20,9 @@ Brief table of stuff.
 
 ## Description
 
-This is going to be my full notes and commentary on the course by Jonas. Essentially this is one big course on HTML and CSS, Jonas teaches slower than most instructors which makes it easy to keep up but maybe take a little longer than others to finish this one project. The course is only about 12 hours long compared to others like Brad Traversy which is 21-hours long. 
+This is going to be my full notes and commentary on the course by Jonas. Instead of writing a typical software dev README.md file, this will serve as my personal student notes that I can look back on if I pick this course up again or maybe it could help other students doing this course. 
+
+Essentially this is one big course on HTML and CSS, Jonas teaches slower than most instructors which makes it easy to keep up but maybe take a little longer than others to finish this one project. The course is only about 12 hours long compared to others like Brad Traversy which is 21-hours long. 
 
 #### Technologies
 
@@ -67,6 +69,12 @@ Time | Comments
 20.09 | Changed width of a few elements in long-copy so that it was in viewport width
 20.11 | Commit: Added images and zoom transition for meal section
 12/08 | Tuesday
+19.34 | Start again with vid 45 going to build a how the app works page
+19.51 | I'd already adjusted some of my CSS earlier to be per vh/vw instead of px so my buttons seem to fit better w/o adjustment.
+20.40 | Changed much of his alignment and padding for the text instructions bcuz I wanted more padding on the left so that the text would wrap. 
+20.59 | The icons for the iPhone and Android stores don't look the same to me, not sure how to fix that, but he thinks they are close enough. Plus when he clears the float you have to make sure that you use clearfix::after so that it clears after that section. 
+21.03 | Commit before starting the next section
+
 
 
 ## Video Notes and Comments
