@@ -84,6 +84,8 @@ Time | Comments
 12/12 | Saturday
 10.24 | Worked on testimonials section but a lot of adjustments made to screensizes.
 10.31 | Commit 3 changes; added testimonials section
+12.13 | Finished the plan prices section, adjusted text color bcuz light hardly shows.
+12.19 | Commit 3 changes finished pricing plan section
 
 ## Video Notes and Comments
 
