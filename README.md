@@ -88,6 +88,8 @@ Time | Comments
 12.19 | Commit 3 changes finished pricing plan section
 12.20 | Says this section on forms teaches all about forms....
 13.53 | Commit 3 changes finished form
+14.07 | Added text to footer and an ion-icons for facebook, twitter, google
+14.55 | Not in this course but to target a named element we use element and put the name in square brackets
 
 ## Video Notes and Comments
 
