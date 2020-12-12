@@ -86,6 +86,8 @@ Time | Comments
 10.31 | Commit 3 changes; added testimonials section
 12.13 | Finished the plan prices section, adjusted text color bcuz light hardly shows.
 12.19 | Commit 3 changes finished pricing plan section
+12.20 | Says this section on forms teaches all about forms....
+13.53 | Commit 3 changes finished form
 
 ## Video Notes and Comments
 
