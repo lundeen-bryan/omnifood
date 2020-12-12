@@ -59,6 +59,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -285,7 +286,7 @@ h3 {
 .works-step div {
   color: #e67e22;
   border: 2px solid #e67e22;
-  display: inline-block;
+  /*   display: inline-block; */
   border-radius: 50%;
   height: 55px;
   width: 55px;
@@ -346,3 +347,49 @@ h3 {
   transition: border-bottom 0.2s, color 0.2s;
 }
 /*=====  End of Section generic links  ======*/
+
+/*=============================================
+=            Section testimonials             =
+=============================================*/
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/resources/img/back-customers.jpg);
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+}
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 1.8519vh; /* was 20px */
+}
+
+blockquote::before {
+  content: '\201C';
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+cite {
+  font-size: 90%;
+  margin-top: 2.3148vh; /* was 25px */
+  display: block;
+}
+
+cite img {
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.testirow {
+  max-width: 75%; /* originally set at 1300px then 75% */
+}
+/*=====  End of Section testimonials   ======*/

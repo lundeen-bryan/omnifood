@@ -81,6 +81,9 @@ Time | Comments
 21.46 | Vid #48 Interesting trick of adding line-height and vertical align middle to make the icons and text line up in the middle
 22.09 | Jonas has a lot of problems in Vid48 because he is not using BEM style so everytime he styles icons then ALL icons change or hyperlinks, then ALL hyperlinks change, so it would be better in BEM. Hope he uses BEM in the advanced course.
 22.10 | Commit 4 changes
+12/12 | Saturday
+10.24 | Worked on testimonials section but a lot of adjustments made to screensizes.
+10.31 | Commit 3 changes; added testimonials section
 
 ## Video Notes and Comments
 
